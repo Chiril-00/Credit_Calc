@@ -1,0 +1,8 @@
+body {
+    padding: 25px 70px;
+}
+
+card {
+    display: flex;
+    justify-content: center;
+}

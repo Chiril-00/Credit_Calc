@@ -3,6 +3,7 @@ document.querySelector('.calcDeposit').addEventListener('click', function() {
     let depositTime = document.querySelector('.depositTime').value;
 
     let firstYearProfit = (depositAmount * 1.01);
+    
     for (i=1; i <= depositTime; i++) {
         depositAmount *= 1.01;
     }
